@@ -1,0 +1,42 @@
+@charset "UTF 8";
+
+/*tudo que for no # ele é idenfiticação principal
+ tem tambem o HTML CLASS que é */
+
+
+body{
+    background-color: rgb(223, 175, 86);
+    font-family: Arial, Helvetica, sans-serif;
+}
+h1{
+    color: yellow
+}
+
+#principal{
+
+    text-align: center;
+    color: white;
+}
+
+h2{
+    color: blue
+}
+
+.basico{ color: aqua;
+
+}
+.intermediario{
+    color: green;
+
+}
+
+.avancado{
+    color: white;
+
+}
+
+.destaque {
+
+    background-color: green;
+}
+
