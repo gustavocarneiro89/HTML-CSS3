@@ -1,0 +1,21 @@
+.cabecalho {
+    max-height: 100px;
+    min-height: 80px;
+    border-radius: 15px;
+    background-color: #000fff;
+    text-align: center;
+    font-weight: bold;
+    color: #fff;
+}
+
+.rodape {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #000fff;
+    color: white;
+    text-align: center;
+    min-height: 40px;
+    border-radius: 15px;
+  }
