@@ -47,8 +47,8 @@ header a:hover, footer a:hover {
 section{
     line-height: 2em;
     padding-top: 10vh;
-    padding-bottom: 10vh;
-    padding-left: 30px;
+    padding-bottom: 0vh;
+    padding-left: 0px;
     font-family: var(--fonte2);
     
 
@@ -71,7 +71,8 @@ section.imagem > p {
 }
 section#img01{
     background-image: url(../imagens/sharingan.jpg);
-    background-position: right center;
+
+
 
 }
 
