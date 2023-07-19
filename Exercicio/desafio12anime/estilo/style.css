@@ -11,36 +11,37 @@ padding:0px
 }
 html, body{
     min-height: 100vh;
-    background-color: rgba(0, 0, 139, 0.434);
     font-family: var(--fonte1);
-    
-
+    font-size:large
+            
 }
-
 header{
-    background-color: grey;
+    background-color: darkblue;
     color: white;
     text-align: center;
     font-family: var(--fonte2);
+    box-shadow: inset 6px 6px 13px 0px white;
 }
 header > h1{
     padding-top: 50px;
     font-variant: small-caps;
     font-size: 5vh;
-
 }
 header > p{
     padding-bottom: 50px;
 
 }
+/*link*/
 a {
     color: white;
     text-decoration: none;
     font-weight: bolder;
 }
+/*sublinhamento do link*/
 a:hover{
     text-decoration: underline;
 }
+/*configuração para todas as sections*/
 section{
     padding-top: 10vh;
     padding-bottom: 10vh;
@@ -48,26 +49,33 @@ section{
     padding-left: 30px;
 }
 section.normal{
-background-color: white;
-color: black;
+    background-image: linear-gradient(to right, white,blue);
+    box-shadow: inset 6px 6px 13px 0px white;
+    
+
 
 }
 section.imagem{
     background-position: center;
     background: size 100px;
-    background-color: rgba(128, 128, 128, 0.333);
-    width: 1303
-    px;
+    width: 1303px;
     padding-bottom: 1%;
+    box-shadow: inset 6px 6px 13px 0px black;
+    background-attachment: fixed;
     
         
+}
+section.imagem > p{
+    text-shadow: 2px,px;
 }
 section#img01{
     background-image: url("../tsubaza2.jpg");
     background-size: cover;
 }
+
+/*nota de rodapé*/
 footer{
-    background-color: grey;
+    background-image: linear-gradient(to right, white,blue);
     color: white;
     text-align: center;
     padding: 10px;
