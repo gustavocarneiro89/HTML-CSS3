@@ -1,5 +1,6 @@
 @charset "UTF-8";
 
+/*tablet*/
 @media screen and (min-width: 768px) and (max-width: 992px) {
     body{
         background-image: linear-gradient(orange)
@@ -18,6 +19,8 @@
     }
 
 }
+/*notbook pra cima telas grandes*/
+
 @media screen and (min-width: 992px) {
     section#login {
         width: 950px;
@@ -25,11 +28,11 @@
     
 }
 section#login > div#imagem {
-    float: left;
+    float: right;
     width: 50%;
     height: 100%;
 }
 section#login > div#formulario {
-    float: right;
+    float: left;
     width: 50%;
 }
